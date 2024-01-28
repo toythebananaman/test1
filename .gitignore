@@ -1,1 +1,10 @@
 instructions.txt
+
+__pycache__/
+/BTS/interpreter_compiler/__pycache__
+
+**/.DS_Store
+
+
+
+
