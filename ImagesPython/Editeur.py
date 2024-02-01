@@ -21,7 +21,7 @@ def restart():
        # Mise à jour de la photo (modifiée) dans le canevas
     global item, Canevas, Mafenetre, photo
     Canevas.delete(ALL)
-    photo = PhotoImage(file="image.png")
+    photo = PhotoImage(file="./image.png")
     #Canevas.itemconfig(item,image=photo)
     item = Canevas.create_image(0,0,anchor=NW, image=photo)
     print("Image de fond (item",item,")")
