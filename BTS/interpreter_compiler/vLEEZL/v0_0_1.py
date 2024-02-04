@@ -8,6 +8,6 @@ def lexer(i):
 # Define the Parser
 def parser(o):
     # Implement parsing logic here
-    if 1=1:
+    if 1==1:
         print(2)
     return o
